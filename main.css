@@ -22,3 +22,62 @@ h1.logo{
     background-image: url("/img/cartographer/cartographer/cartographer.png");
     
 }
+
+nav{
+    background-color: #1c74b2;
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 1rem;
+    max-height: 200%;
+    
+}
+.menu >li{
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px dashed #0a2b42;
+    
+}
+.menu >li:first-child{
+    border-left: 1px dashed #0a2b42;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #0a2b42;
+    
+}
+.subject{
+    display: inline-block;
+    width: 400px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.subject a{
+    opacity: 0.9;
+    
+}
+.subject a:hover{
+    opacity:1;
+}
+figure{
+    margin: 1em;
+    padding: 0px;
+    
+}
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
