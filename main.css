@@ -80,9 +80,12 @@ figure{
     display: flex;
     align-items: center;
     justify-content: center
+<<<<<<< HEAD
 }
 
 #mymap{
     height: 70vh;
     background-color: grey;
+=======
+>>>>>>> eb50e368c240a11ff6d79b438af47c098a792d54
 }
